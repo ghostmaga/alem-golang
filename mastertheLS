@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -u -p | tr '\n' ',' | sed 's/.$//'
